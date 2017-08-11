@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import createSagaMiddleware from 'redux-saga';
 import { BrowserRouter, Route } from 'react-router-dom';
 import reducer from './reducers';
-import watchForecastListChange from './sagas'
+import watchForecastListChange from './sagas';
 import App from './containers/App.jsx';
 import style from './styles.scss';
 

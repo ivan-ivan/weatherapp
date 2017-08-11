@@ -1,4 +1,4 @@
-import { call, put, takeLatest } from 'redux-saga/effects'
+import { call, put, takeLatest } from 'redux-saga/effects';
 import {
   GET_TODAY_FORECAST,
   GET_NEXT_DAY_FORECAST,

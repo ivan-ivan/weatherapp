@@ -12,28 +12,28 @@ export function getTodayForecast() {
   return {
     type: GET_TODAY_FORECAST,
     payload: 1
-  }
+  };
 }
 
 export function getNextDayForecast() {
   return {
     type: GET_NEXT_DAY_FORECAST,
-      payload: 2
-  }
+    payload: 2
+  };
 }
 
 export function getWeekForecast() {
   return {
     type: GET_WEEK_FORECAST,
     payload: 5
-  }
+  };
 }
 
 export function getMonthForecast() {
   return {
     type: GET_MONTH_FORECAST,
     payload: 17
-  }
+  };
 }
 
 export function loadForecastListPending() {

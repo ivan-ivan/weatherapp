@@ -21,12 +21,8 @@ class App extends Component {
 
   render() {
     const {
-      getTodayForecast,
-      getNextDayForecast,
-      getWeekForecast,
-      getMonthForecast,
       forecastList,
-      activeTab
+      ...restNavPanel
     } = this.props;
 
     return (
@@ -35,11 +31,7 @@ class App extends Component {
           <span>Weather app</span>
         </header>
         <NavPanel
-          getTodayForecast={getTodayForecast}
-          getNextDayForecast={getNextDayForecast}
-          getWeekForecast={getWeekForecast}
-          getMonthForecast={getMonthForecast}
-          activeTab={activeTab}
+          {...restNavPanel}
         />
         <section className="main">
           {
